@@ -1,0 +1,320 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+
+}
+
+.header {
+  justify-content: space-between;
+  height: 64px;
+  align-content: center;
+}
+
+.logo {
+  align-content: center;
+  padding-left: 24px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.logo-title {
+  align-content: center;
+  height: 16px;
+  padding-top: 22px;
+}
+
+.logo-title span {
+
+}
+
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-right: 16px;
+}
+
+nav span {
+  padding-left: 16px;
+  padding-top: 22px;
+}
+
+.main-header {
+  display: flex;
+  background-color: lightgrey;
+}
+
+.header-image {
+  width: 60%;
+  display: block;
+  padding: 32px 40px 32px 24px;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+  width: 40%;
+}
+
+.header-info h3 {
+  background-color: #666565;
+  width: 80%;
+  text-align: center;
+  color: white;
+  padding: 8px 0;
+}
+
+.left {
+  flex-direction: column;
+}
+
+.sub-banner {
+  margin: 16px 0 32px 24px;
+}
+
+.reading-man-image {
+  display: block;
+  margin: 16px 24px 32px 0;
+}
+
+.reading-man-image img {
+  width: 100%;
+  height: auto;
+}
+
+.reading-man-info {
+  flex-direction: column;
+  padding: 0 24px 0 0;
+}
+
+.reading-man-info span {
+
+}
+
+.sidebar {
+  flex-direction: column;
+}
+
+.sidebar-box {
+  width: 423px;
+  display: flex;
+  padding: 16px;
+}
+
+.box-image {
+  width: 35%;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+.box-info {
+  padding: 0 16px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-info p {
+  padding: 8px 0;
+  margin: 0;
+}
+
+.box-info h2 {
+  margin: 0;
+}
+
+.box-info a {
+  padding: 8px 0;
+}
+
+.start-learning {
+  display: block;
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 32px;
+}
+
+
+.learning-title {
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+
+.learning-title h1 {
+  margin-top: 0;
+}
+
+.learning-boxes {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.learning-box {
+  width: 28%;
+  margin: 16px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.learning-box img {
+  width: 100%;
+}
+
+.last {
+  background-color: lightgrey;
+}
+
+.thesis-exhibit {
+  flex-direction: column;
+}
+
+.thesis-title {
+  justify-content: center;
+}
+
+.thesis-title h1 {
+  margin: 32px 0;
+}
+
+.thesis-main {
+  flex-direction: column;
+  margin: 0 16px 32px 24px;
+}
+
+.thesis-main h2 {
+  margin: 0;
+}
+
+.thesis-video video {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.thesis-sidebar {
+  flex-direction: column;
+}
+
+.thesis-box {
+  width: 423px;
+  height: 168px;
+}
+
+.thesis-image img {
+  margin: 16px;
+  height: 136px;
+}
+
+.thesis-info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fisma{
+  background-color: lightgrey;
+}
+
+footer {
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 64px;
+}
+
+@media only screen and (min-width: 500px){
+  .mobile{
+    display: none;
+  }
+  .mob-footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+.container{
+  display: none;
+}
+
+.mob-header{
+height: 64px;
+width: 100%;
+border-bottom: 1px solid grey;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+#mob-nav{
+  height: 30px;
+  width: 30px;
+}
+
+.grey-banner{
+  height: 180px;
+  background-color: lightgray;
+}
+
+.mob-sub-banner{
+  width: 423px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+.mob-events{
+margin-top: 32px;
+margin-bottom: 32px;
+margin-right: 5%;
+margin-left: 5%;
+}
+
+.mob-events img{
+  text-align: center;
+
+}
+
+.mob-classes{
+  text-align: center;
+}
+.mob-classes h1{
+  margin-bottom: 16px;
+}
+
+.mob-class-list h2{
+  padding: 16px;
+  background-color: lightgrey;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mob-thesis{
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.mob-footer{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+}
